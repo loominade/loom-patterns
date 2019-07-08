@@ -1,4 +1,4 @@
-uuid: a7d1f3b6-fc1c-43da-81ba-2feaf4ac9932
+uuid: 106e76df-7a08-464e-9f75-48e1b07bd664
 langcode: en
 status: true
 dependencies: {  }
@@ -9,11 +9,12 @@ label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
-  - 'access content'
-  - 'use text format basic_html'
   - 'access comments'
-  - 'post comments'
-  - 'skip comment approval'
-  - 'access site-wide contact form'
+  - 'access content'
+  - 'access patterns page'
   - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'post comments'
   - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'

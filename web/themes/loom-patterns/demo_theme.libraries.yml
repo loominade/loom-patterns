@@ -1,0 +1,12 @@
+base:
+  css:
+    base:
+      base.css: {}
+  dependencies:
+    - core/normalize
+
+
+pattern-browser:
+  css:
+    component:
+      templates/patterns/pattern-browser/pattern-browser.css: {}

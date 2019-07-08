@@ -1,0 +1,8 @@
+name: Loom Patterns
+type: theme
+description: UI Patterns demo
+package: Core
+version: VERSION
+core: 8.x
+libraries:
+  - demo_theme/base

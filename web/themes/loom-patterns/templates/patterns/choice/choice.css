@@ -1,0 +1,53 @@
+.choice__suffix {
+  top: 0;
+  right: 0;
+  position: absolute;
+  font-size: 25px;
+  pointer-events: none;
+  height: 50px;
+  width: 37.5px;
+  text-align: center;
+  line-height: 50px;
+}
+
+:disabled + .choice__suffix {
+  opacity: .5;
+}
+
+.choice__suffix::after {
+  content: '▻';
+  display: block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.choice {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  background: #eff3f5;
+}
+
+.choice:not(.choice--multiple) {
+  height: 50px;
+}
+
+.choice__select {
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #dadee0;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #eff3f5;
+  color: inherit;
+  padding: 0 50px 0 21px;
+}

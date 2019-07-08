@@ -1,8 +1,0 @@
-style:
-  css:
-    theme:
-      css/style.css: {}
-patterns-overview:
-  css:
-    theme:
-      css/patterns-overview.css: {}

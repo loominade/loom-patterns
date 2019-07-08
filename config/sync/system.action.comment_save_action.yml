@@ -1,4 +1,4 @@
-uuid: 1742d562-6389-4f08-a92d-ce36a383bbd1
+uuid: 0d60820d-8581-4d0d-a025-840028e8c676
 langcode: en
 status: true
 dependencies:
@@ -9,5 +9,5 @@ _core:
 id: comment_save_action
 label: 'Save comment'
 type: comment
-plugin: comment_save_action
+plugin: 'entity:save_action:comment'
 configuration: {  }

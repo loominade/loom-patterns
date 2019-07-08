@@ -1,0 +1,12 @@
+.telly {
+  margin: 0;
+  padding-bottom: 56.3%;
+  height: 0;
+  position: relative;
+}
+
+.telly__tube {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

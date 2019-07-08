@@ -1,0 +1,14 @@
+{% if pattern is not empty %}
+
+  <h2>{{ pattern.label }}</h2>
+  <p>{{ pattern.description }}</p>
+
+  {% for field in pattern.fields %}
+    <details>
+      <summary><code>{{ field.name }}</code>: {{ field.label }}</summary>
+      {{ field.description }}  
+      <b>Type</b>: <code>{{ field.type }}</code>
+    </details>
+  {% endfor %}
+
+{% endif %}

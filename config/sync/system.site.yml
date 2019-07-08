@@ -1,11 +1,11 @@
-uuid: ef7a76de-d633-4266-9bfd-105e31448939
-name: Site-Install
-mail: info@example.com
+uuid: 4c356e17-04f5-4958-a724-f46653328ccb
+name: components
+mail: a.mueller@loom.de
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /patterns
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

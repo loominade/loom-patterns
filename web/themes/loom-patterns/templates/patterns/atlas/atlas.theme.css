@@ -1,0 +1,27 @@
+.atlas__attributation {
+  font-size: smaller;
+}
+
+.atlas__marker {
+  font-size: xx-large;
+  transform-origin: 50% 50%;
+  animation: drop 1s .1s  ease-in alternate 1;
+}
+
+@keyframes drop {
+  0% {
+    transform: translate3d(0,-50%,0) scale3d(1,1.5,1);
+    opacity: 0;
+  }
+  80% {
+    transform: translate3d(0,0,0) scale3d(1,1,1);
+    opacity: 1;
+  }
+  90% {
+    transform: translate3d(0,0,0) scale3d(1,.75,1);
+  }
+}
+
+.atlas__attributation {
+  font-size: .5vw;
+}

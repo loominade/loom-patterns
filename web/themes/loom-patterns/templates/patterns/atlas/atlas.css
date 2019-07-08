@@ -1,0 +1,19 @@
+.atlas {
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.atlas__attributation {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  line-height: 1em;
+}
+
+.atlas__map {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+}

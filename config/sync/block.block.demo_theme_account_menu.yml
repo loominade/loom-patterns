@@ -1,6 +1,6 @@
-uuid: 0754d475-83b7-4800-86f3-080fdeb70d8c
+uuid: 458ba6d1-4d92-45b8-bb6c-8aceacecb129
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 1
+  expand_all_items: false
 visibility: {  }

@@ -1,0 +1,32 @@
+.p-b {
+  display: grid;
+  grid-template-columns: 240px auto;
+  min-height: 100vh;
+}
+
+.p-b__c {
+  min-width: 0;
+}
+
+.p-b__s {
+  padding: 100px;
+}
+
+.p-b__n {
+  background: whitesmoke;
+  height: 100vh;
+  padding: 2em 0;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+}
+
+.p-b__n > a {
+  padding: 10px 24px;
+  display: block;
+  color: inherit;
+}
+
+.p-b__n > a:hover {
+  background: gainsboro;
+}

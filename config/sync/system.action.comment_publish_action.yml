@@ -1,4 +1,4 @@
-uuid: 24aeefa3-a4f5-469f-b0b3-065a396993e5
+uuid: 0ad42c36-bd3b-43e9-a904-fae5150c2dad
 langcode: en
 status: true
 dependencies:
@@ -9,5 +9,5 @@ _core:
 id: comment_publish_action
 label: 'Publish comment'
 type: comment
-plugin: comment_publish_action
+plugin: 'entity:publish_action:comment'
 configuration: {  }

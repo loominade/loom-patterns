@@ -1,0 +1,29 @@
+{{ attach_library('demo_theme/pattern-browser') }}
+
+{% if patterns is not empty %}
+  <div class="p-b">
+  <nav class="p-b__n">
+    {% for pattern_name, pattern in patterns %}
+      <a href="#{{ pattern_name }}">{{ pattern.label }}</a>
+    {% endfor %}
+  </nav>
+
+  <main class="p-b__c">
+    {% for pattern_name, pattern in patterns %}
+      <section class="p-b__s" id="{{ pattern_name }}">
+        {{ pattern.meta }}
+        <div>
+          {{ pattern.rendered }}
+        </div>
+        {#
+        <a href="{{ url('ui_patterns.patterns.single', {'name': pattern_name}) }}">
+          {% trans %}View {{ pattern.label }} as stand-alone{% endtrans %}
+        </a>
+        #}
+      </section>
+    {% endfor %}
+  </main>
+{% endif %}
+
+
+

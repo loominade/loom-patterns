@@ -1,0 +1,28 @@
+<figure class="atlas">
+  <a href="https://maps.wikimedia.org/#{{ zoom }}/{{ lat }}/{{ lon }}">
+    <svg class="atlas__map" width="{{ width }}" height="{{ height }}" viewbox="0 0 {{ width }} {{ height }} ">
+      <switch>
+        <foreignObject x="0" y="0" width="{{ width }}" height="{{ height }}" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <img
+            srcset="
+              https://maps.wikimedia.org/img/osm-intl,{{ zoom }},{{ lat }},{{ lon }},{{ width }}x{{ height }}@1x.png 1x,
+                       
+              https://maps.wikimedia.org/img/osm-intl,{{ zoom }},{{ lat }},{{ lon }},{{ width }}x{{ height }}@2x.png 2x"
+              
+               width="{{ width }}" height="{{ height }}"
+               alt="">
+        </foreignObject>
+
+        <image xlink:href="https://maps.wikimedia.org/img/osm-intl,{{ zoom }},{{ lat }},{{ lon }},{{ width }}x{{ height }}@1x.png" x="0" y="0" width="200" height="200">
+          <title></title>
+        </image>
+      </switch>
+      {% set cx = width | render / 2 %}
+      {% set cy = height | render / 2 %}
+      <text class="atlas__marker" y="{{ cy }}" x="{{ cx }}" text-anchor="middle">📍</text>
+    </svg>
+  </a>
+  <figcaption class="atlas__attributation">
+    {{ attribution }}
+  </figcaption>
+</figure>

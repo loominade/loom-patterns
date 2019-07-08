@@ -1,4 +1,4 @@
-uuid: 19756786-b128-4a72-9419-df9223149167
+uuid: 45f185f0-18d5-4b6a-8071-13f79d060616
 langcode: en
 status: true
 dependencies:
@@ -9,5 +9,5 @@ _core:
 id: node_delete_action
 label: 'Delete content'
 type: node
-plugin: node_delete_action
+plugin: 'entity:delete_action:node'
 configuration: {  }
