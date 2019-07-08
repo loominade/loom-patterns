@@ -1,4 +1,4 @@
-# UI Patterns demo site
+# LOOM patterns
 
 Demo site for the [UI Patterns](https://www.drupal.org/project/ui_patterns) module based on
 [Composer template for Drupal projects](https://github.com/drupal-composer/drupal-project).
